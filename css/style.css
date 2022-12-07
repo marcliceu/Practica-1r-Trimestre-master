@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&family=Roboto&display=swap');
+
+
+body {
+
+
+    font-family: 'Open Sans';
+}
+
+
+.search {
+
+    font-size: 25px;
+}
+
+.cuadre {
+
+    background: #FF5480;
+    border-radius: 5px;
+}
+
+.logo {
+
+    background-image: url("../img/Group\ 13.png");
+    background-repeat: no-repeat;
+
+}
+
+.hov:hover {
+
+    background-color: #FF5480;
+    border-radius: 5px;
+    color: white;
+
+
+}
+
+.ms-6 {
+
+    margin-left: 16%;
+}
+
+.ms-7 {
+
+    margin-left: 12%;
+}
+
+.ms-9 {
+
+    margin-left: 6%;
+}
+
+.ms-8 {
+
+    margin-left: 40%;
+}
+
+.ms-10 {
+
+    margin-left: 42%;
+}
+
+.ms-11 {
+
+    margin-left: 32%;
+}
+
+
+.read {
+
+    margin-bottom: 2%;
+}
+
+.color {
+
+    color: black;
+}
+
+.mt-6 {
+
+    margin-top: 10%;
+}
+
+.color2 {
+
+    color: #FF5480;
+    border: 2px solid #FF5480;
+    width: 7%;
+    border-radius: 40px;
+
+}
+
+
+.width {
+
+    width: 15%;
+}
