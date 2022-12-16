@@ -151,11 +151,24 @@ footer .col-4 {
     background-image: url("../img/img14.png")    
 }
 /* END IMATGES */
+/* TOPICS */
 .topics {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.topics-hov {
+
+    transition: all .2s ease-in-out;
+
+}
+
+.topics-hov:hover{
+
+    transform: scale(1.3);
+}
+/* END OF TOPICS */
 /* POST PAGE CSS */
 
 /* PAGE 2 */
