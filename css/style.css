@@ -1,13 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&family=Roboto&display=swap');
 
-
 body {
-
-
-    font-family: 'Open Sans';
+        font-family: 'Open Sans';
 }
-
-
 .search {
 
     font-size: 25px;
@@ -21,48 +16,71 @@ body {
 
 .logo {
 
-    background-image: url("../img/Group\ 13.png");
+    background-image: url("../img/logo.png");
     background-repeat: no-repeat;
 
 }
 
-.hov:hover {
-
-    background-color: #FF5480;
-    border-radius: 5px;
+.flex {
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    align-items: center;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .active {
+    background: #ff5480;
+    border-radius: 10px;
+    width: 5%;
+    height: 35px;
     color: white;
+  }
+  
+  .web-icon {
+    width: 99px;
+    height: 29px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../assets/icons/Web-icon.svg);
+  }
+  
+  ul>li>a {
+    padding: 10px;
+    margin-left: 20px;
+  }
+  
+  .nav-item > a:hover {
+    transition-duration: 0.5s;
+    background-color: #ff5480;
+    color: white;
+    border-radius: 10px;
+  }
 
 
-}
 
-.ms-6 {
+footer .col-4 {
+    text-align: center;
+    
+  }
 
-    margin-left: 16%;
-}
+.footer img{
+        height: 20px;
+        width: 35px;
+        display: inline-block;
+        background-repeat: no-repeat;
+ }
 
-.ms-7 {
+.logo-2 {
 
-    margin-left: 12%;
-}
-
-.ms-9 {
-
-    margin-left: 6%;
-}
-
-.ms-8 {
-
-    margin-left: 40%;
-}
-
-.ms-10 {
-
-    margin-left: 42%;
-}
-
-.ms-11 {
-
-    margin-left: 32%;
+    width: 99px;
+  height: 29px;
+  display: block;
 }
 
 
@@ -70,28 +88,145 @@ body {
 
     margin-bottom: 2%;
 }
-
 .color {
 
     color: black;
 }
-
 .mt-6 {
 
     margin-top: 10%;
 }
-
 .color2 {
 
     color: #FF5480;
     border: 2px solid #FF5480;
     width: 7%;
     border-radius: 40px;
-
 }
-
 
 .width {
 
     width: 15%;
+}
+
+.img1 {
+
+    background-image: url(/img/img1.png);
+    background-repeat: no-repeat;
+
+}
+
+.img2 {
+
+    background-image: url(/img/img2.png);
+    background-repeat: no-repeat;
+
+}
+
+.new {
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 350px;
+
+}
+
+
+
+.img1 {
+
+background-image: url("../img/img1.png")
+
+}
+
+.img2 {
+
+    background-image: url("../img/img2.png")
+    
+    }
+
+.img3 {
+
+        background-image: url("../img/img3.png")
+        
+}
+
+.img4 {
+
+    background-image: url("../img/img4.png")
+    
+}
+
+.img5 {
+
+    background-image: url("../img/img5.png")
+    
+}
+
+.img6 {
+
+    background-image: url("../img/img6.png")
+    
+}
+
+.img7 {
+    background-image: url("../img/img7.png")    
+}
+
+.img8 {
+
+    background-image: url("../img/img8.png")
+    
+}
+
+.img9 {
+    background-image: url("../img/img9.png")
+}
+
+.img10 {
+
+    background-image: url("../img/img10.png")
+}
+
+.img11 {
+    background-image: url("../img/img1.png")
+}
+
+.img12 {
+    background-image: url("../img/img1.png")
+}
+
+.img13 {
+    background-image: url("../img/img13.png")   
+}
+.img14 {
+    background-image: url("../img/img14.png")    
+}
+
+.topics {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* POST PAGE CSS */
+
+/* BODY */
+
+.postimg1 {
+
+    background-image: url("../img/post2img1.png");
+}
+
+.imgs {
+
+    background-repeat: no-repeat;
+  background-size: cover;
+  height: 360px;
+  border-radius: 10px;
+  background-position: center;
 }
