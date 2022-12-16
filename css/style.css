@@ -91,65 +91,19 @@ footer .col-4 {
 
 /* IMGS */
 
-.img1 {
+.posts {
 
-    background-image: url(/img/img1.png);
-    background-repeat: no-repeat;
-
+    height: fit-content;
+    width: 100%;
+    border-radius: 10px;
 }
-.img2 {
-    background-image: url(/img/img2.png);
-    background-repeat: no-repeat;
-}
-
 .new {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 350px;
     }
-.img1 {
-        background-image: url("../img/img1.png")
-}
-.img2 {
-        background-image: url("../img/img2.png")
-    }
-.img3 {
-        background-image: url("../img/img3.png")    
-}
-.img4 {
-    background-image: url("../img/img4.png")
-}
-.img5 {
-    background-image: url("../img/img5.png") 
-}
-.img6 {
-    background-image: url("../img/img6.png")
-}
-.img7 {
-    background-image: url("../img/img7.png")    
-}
-.img8 {
-    background-image: url("../img/img8.png")
-}
-.img9 {
-    background-image: url("../img/img9.png")
-}
-.img10 {
-    background-image: url("../img/img10.png")
-}
-.img11 {
-    background-image: url("../img/img11.png")
-}
-.img12 {
-    background-image: url("../img/img12.png")
-}
-.img13 {
-    background-image: url("../img/img13.png")   
-}
-.img14 {
-    background-image: url("../img/img14.png")    
-}
+
 /* END IMATGES */
 /* TOPICS */
 .topics {
